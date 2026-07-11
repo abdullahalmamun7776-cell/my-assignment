@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(153, 196, 233);
+    align-items: center;
+    padding: 30px 8%;
+
+}
+nav img{
+    width: 150px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px ;
+}
+a{
+    text-decoration: none;
+    color:white ;
+    font-size: 18px;
+}
+nav button{
+    padding: 30px 12px;
+    border: none;
+    border-radius: 10px;
+    background: #1E90FF;
+    color: white;
+    cursor: pointer;
+}
+header{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('./assets/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-content{
+    color: white;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+}
+.header-content h2 {
+    font-size: 80px;
+    font-weight: 600;
+}
+.header-content p{
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 20px;
+} 
+.header-content button{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1E90FF;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.speakers-section{
+    max-width: 1100px;
+    margin: 70px auto;
+    padding: 20px 0 60px;
+    background-color: white;
+    
+}
+.speakers-section h2{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 40px;
+    
+    color: black;
+}
+.speakers-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.card{
+    
+    background-color: white;
+    width: 100%;
+}
+.card img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+.card-info{
+    padding: 18px 20px 24px;
+}
+.speaker-info h5{
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: black;
+}
+.card-info p{
+    font-size: 24px;
+    color: #686464;
+
+}
+.pricing{
+    width: 100%;
+    padding: 80px 0;
+}
+.pricing-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pricing-title h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.pricing-title p{
+    color: gray;
+    font-size: 18px;
+}
+.pricing-container{
+   
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+    }
+    .card{
+        width: 350px;
+        border: 1px solid #f7f6f6;
+        border-radius: 12px;
+        padding: 30px;
+        background: white;
+    }
+    .card h3{
+        font-size: 56px;
+        margin: 10px 0;
+    }
+    .card span{
+        color: gray;
+    }
+    .card hr{
+        margin: 25px 0;
+    }
+.card ul{
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+.card li{
+    display: block;
+    margin-bottom: 15px;
+}
+.card button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid #2563eb;
+    background-color: white;
+    color: #2563eb;
+    cursor: pointer;
+}
+.pro{
+    background-color: #0D1B2A;
+    color: white;
+}
+.pro button{
+    background-color: #2563eb;
+    color: white;
+    border: none;
+}
+.hackathon-section{
+    padding: 100px 0;
+    background-color: #c5ced6;
+}
+.hackathon-container{
+    
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 70px 40px;
+    background-color: #818691;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.hackathon-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    margin : 50px 0;
+}
+.hack-card{
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+
+
+
+.hack-btn{
+    padding: 15px 35px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}

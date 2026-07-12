@@ -26,12 +26,14 @@ a{
     font-size: 18px;
 }
 nav button{
-    padding: 30px 12px;
+    padding: 12px 24px;
     border: none;
     border-radius: 10px;
     background: #1E90FF;
     color: white;
     cursor: pointer;
+    position: relative;
+    top: 3px;
 }
 header{
     background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('./assets/banner.jpg');

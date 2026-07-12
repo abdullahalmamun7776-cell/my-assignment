@@ -9,7 +9,7 @@ nav{
     justify-content: space-between;
     background-color: rgb(153, 196, 233);
     align-items: center;
-    padding: 30px 8%;
+    padding: 16px 8%;
 
 }
 nav img{
@@ -35,7 +35,7 @@ nav button{
 }
 header{
     background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('./assets/banner.jpg');
-    height: 90vh;
+    height: 75vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -52,13 +52,13 @@ header{
     justify-items: center;
 }
 .header-content h2 {
-    font-size: 80px;
+    font-size: 64px;
     font-weight: 600;
 }
 .header-content p{
-    max-width: 650px;
-    line-height: 1.6;
-    font-size: 20px;
+    max-width: 600px;
+    line-height: 1.7;
+    font-size: 18px;
 } 
 .header-content button{
     padding: 20px 40px;
@@ -95,21 +95,22 @@ header{
 }
 .card img{
     width: 100%;
-    height: 260px;
+    height: 220px;
     object-fit: cover;
     display: block;
 }
 .card-info{
     padding: 18px 20px 24px;
 }
-.speaker-info h5{
+.card-info h5{
     font-size: 18px;
     margin-bottom: 8px;
     color: black;
 }
-.card-info p{
+.card-info h3{
     font-size: 24px;
     color: #686464;
+    margin: 8px o;
 
 }
 .pricing{
@@ -138,7 +139,7 @@ header{
     
     }
     .card{
-        width: 350px;
+        width: 320px;
         border: 1px solid #f7f6f6;
         border-radius: 12px;
         padding: 30px;
@@ -176,6 +177,7 @@ header{
 .pro{
     background-color: #0D1B2A;
     color: white;
+    transform: scale(1.08);
 }
 .pro button{
     background-color: #2563eb;
